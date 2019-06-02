@@ -15,7 +15,7 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
 
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+          <Card shadow={5} style={{ minWidth: '450', margin: '20px auto' }}>
             <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >Weather App</CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -31,7 +31,7 @@ class Projects extends Component {
           </Card>
 
 
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+          <Card shadow={5} style={{ minWidth: '450', margin: '20px auto' }}>
             <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >CourseList App</CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -47,7 +47,7 @@ class Projects extends Component {
           </Card>
 
 
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+          <Card shadow={5} style={{ minWidth: '450', margin: '20px auto' }}>
             <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover' }} >My Portfolio Site</CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -71,7 +71,7 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
 
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+          <Card shadow={5} style={{ minWidth: '450', margin: '20px auto' }}>
             <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn0.iconfinder.com/data/icons/long-shadow-web-icons/512/angular-symbol-512.png) center / cover' }} >Angular App</CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -86,7 +86,7 @@ class Projects extends Component {
             </CardMenu>
           </Card>
 
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+          <Card shadow={5} style={{ minWidth: '450', margin: '20px auto' }}>
             <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn0.iconfinder.com/data/icons/long-shadow-web-icons/512/angular-symbol-512.png) center / cover' }} >Angular App #2</CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -101,7 +101,7 @@ class Projects extends Component {
             </CardMenu>
           </Card>
 
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+          <Card shadow={5} style={{ minWidth: '450', margin: '20px auto' }}>
             <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn0.iconfinder.com/data/icons/long-shadow-web-icons/512/angular-symbol-512.png) center / cover' }} >Angular App #3</CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -123,7 +123,7 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
 
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+          <Card shadow={5} style={{ minWidth: '450', margin: '20px auto' }}>
             <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://miro.medium.com/max/1108/1*H-25KB7EbSHjv70HXrdl6w.png) center / cover' }} >JS App</CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -138,7 +138,7 @@ class Projects extends Component {
             </CardMenu>
           </Card>
 
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+          <Card shadow={5} style={{ minWidth: '450', margin: '20px auto' }}>
             <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://miro.medium.com/max/1108/1*H-25KB7EbSHjv70HXrdl6w.png) center / cover' }} >JS App #2</CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -153,7 +153,7 @@ class Projects extends Component {
             </CardMenu>
           </Card>
 
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+          <Card shadow={5} style={{ minWidth: '450', margin: '20px auto' }}>
             <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://miro.medium.com/max/1108/1*H-25KB7EbSHjv70HXrdl6w.png) center / cover' }} >JS App #3</CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's

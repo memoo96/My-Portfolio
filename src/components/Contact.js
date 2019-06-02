@@ -36,14 +36,14 @@ class Contact extends Component {
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent style={{fontSize: '22px', fontFamily: 'Anton', color: '#03A9F4'}}>
+                  <ListItemContent className="gmail">
                     <i className="fa fa-envelope" aria-hidden="true"/>
                     mohamedashraf129.ma@gmail.com
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent style={{fontSize: '22px', fontFamily: 'Anton', color: '#03A9F4'}}>
+                  <ListItemContent className="address">
                     <i className="fa fa-map-marker" aria-hidden="true"/>
                     11 salah El deen, Imbaba, Giza, Egypt
                   </ListItemContent>

@@ -9,11 +9,7 @@
     background: #200122;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
     text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
 }
@@ -81,7 +77,6 @@
 
 .contact-body {
     margin: auto;
-    position: fixed;
     width: 100%;
     height: 100%;
     justify-content: center;
@@ -92,7 +87,6 @@
     text-align: center;
     justify-content: center;
     width: 80%;
-    height: 520px;
     background: #200122;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -123,7 +117,13 @@
     color: #03A9F4;
 }
   
-  /* Resume  */
+/* Resume  */
+
+.Resume-grid {
+    justify-content: center;
+    width: 100%;
+}
+
 .resume-right-col {
     background: #200122;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
@@ -131,4 +131,142 @@
     
     color: white;
     padding: 2em;
+}
+
+.material-icons {
+    color: #03A9F4;
+  
+}
+
+.title {
+    padding-top: 2em;
+    color: #03A9F4;
+}
+
+.position {
+    color: '#200122'
+}
+
+.hr {
+    border-top: 3px solid #200122;
+    width: 50%;
+}
+
+.gmail,.address {
+    font-size: 22px;
+    font-family: 'Anton'; 
+    color: #03A9F4;
+}
+
+.Discription,.Address,.Phone,.Email,.Web {
+    color: #03A9F4;
+}
+
+.Addresstitle,.Phonetitle,.Emailtitle,.Webtitle {
+    color: #200122;
+}
+
+@media (max-width:767px){
+    .social-links i {
+        font-size: 3em;
+    }
+    .social-links {
+        width: 90%;
+    }
+    .banner-text h1 {
+        font-size: 35px;
+    }
+    .banner-text p {
+        font-size: 18px;
+    }
+    .title {
+        padding-top: 0;
+        text-align: center;
+        font-size: 35px;
+    }
+    .position {
+        text-align: center
+    }
+    .hr {
+        margin:15px auto;
+    }
+    .mdl-tabs {
+        padding-top: 65px;
+    }
+    .projects-grid {
+        display: inherit;
+    }
+    .contact-body {
+        padding-top: 5.5em;
+    }
+    .contact-list i {
+        font-size: 35px;
+        padding-right: 1rem;
+    }
+    .gmail {
+        font-size:10px;
+    }
+    .address {
+        font-size: 17px;
+    }
+    .landing-grid {
+        height: 480px;
+    }
+    .Discription,.Address,.Phone,.Email,.Web,.Addresstitle,.Phonetitle,.Emailtitle,.Webtitle {
+        text-align: center;
+    }
+}
+
+
+@media(min-width:768px) and (max-width:991px) {
+    .landing-grid {
+        height: 480px;
+    }
+    .social-links {
+        width: 60%;
+    }
+    .mdl-tabs {
+        padding-top: 65px;
+    }
+    .projects-grid {
+        display: inherit;
+    }
+    .contact-body {
+        padding-top: 5.5em;
+    }
+    .contact-list i {
+        font-size: 35px;
+        padding-right: 1rem;
+    }
+    .gmail {
+        font-size:15px;
+    }
+    .address {
+        font-size: 17px;
+    }
+    .title {
+        padding-top: 0;
+        font-size: 35px;
+    }
+}
+
+
+@media(min-width:992px) and (max-width:1199px) {
+    .contact-body {
+        padding-top: 5.5em;
+    }
+    .contact-list i {
+        font-size: 35px;
+        padding-right: 1rem;
+    }
+    .gmail {
+        font-size:15px;
+    }
+    .address {
+        font-size: 17px;
+    }
+    .title {
+        padding-top: 0;
+        font-size: 40px;
+    }
 }
